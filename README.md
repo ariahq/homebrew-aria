@@ -4,17 +4,17 @@
 
   ## Install
 
-  brew install taladari/aria/aria
+  brew install ariahq/aria/aria
 
   Or in two steps:
 
-  brew tap taladari/aria
+  brew tap ariahq/aria
   brew install aria
 
   ## What's in the tap
 
   Just `Formula/aria.rb` — points at the pre-built binaries on this repo's
-  [Releases](https://github.com/taladari/homebrew-aria/releases) page.
+  [Releases](https://github.com/ariahq/homebrew-aria/releases) page.
 
   Three platforms ship: macOS arm64, macOS x86_64, Linux x86_64.
 
