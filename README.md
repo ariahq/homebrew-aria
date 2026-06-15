@@ -36,4 +36,4 @@
 
   ## Contact
 
-  `tal0392@gmail.com`
+  `hello@ariacode.dev`
