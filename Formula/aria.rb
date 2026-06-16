@@ -19,17 +19,17 @@ class Aria < Formula
   on_macos do
     on_arm do
       url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-macos-arm64"
-      sha256 "dece153fb9760c1d4f23615ec47215f9996931d0bb2f06c5a326fcaab148e6d9"
+      sha256 "e6a30e3dc0e8fe8072817c1c68751328c72adeed22fcb19ddf224931d8a2c794"
     end
     on_intel do
       url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-macos-x86_64"
-      sha256 "12f42232cfb9e4a7ba4e1a0071b1563fbef6caa6e14cfbf29045a8053fedbf3a"
+      sha256 "834929fd5d72ae816d4d4ae31f7c5e0c7c886f8a0b6e2d95a9cab441a9d66cd0"
     end
   end
 
   on_linux do
     url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-linux-x86_64"
-    sha256 "ce42f77b3dd33732e33ad287a5de07ac80295b2ad0deebebb1924a9bb861ad99"
+    sha256 "77d065dea8ca1f5e40b1d960848a8564e849265d70f35221e9e3a4ad6a02bd92"
   end
 
   def install
