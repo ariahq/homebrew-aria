@@ -13,23 +13,23 @@
 class Aria < Formula
   desc "Memory + team-sync layer for AI coding sessions"
   homepage "https://github.com/ariahq/homebrew-aria"
-  version "0.1.9"
+  version "0.2.0"
   # Source-available; no open-source license. See repo README.
 
   on_macos do
     on_arm do
       url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-macos-arm64"
-      sha256 "a354690b4acd6635157dae6073b3746009302f70dbf0b0783bf7826b46ea4ae7"
+      sha256 "2d75cb875acafae5b02605823b381629a38d62185216fd4adbb02cb7d577780e"
     end
     on_intel do
       url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-macos-x86_64"
-      sha256 "3b7000403f86a47e327fc71aec0c915875401e1f7744c4153048e63a2b32171c"
+      sha256 "fc393e3c0bb96895576243be6b83b0bf4f5effbdff96454fec6e943c2ab75911"
     end
   end
 
   on_linux do
     url "https://github.com/ariahq/homebrew-aria/releases/download/v#{version}/aria-linux-x86_64"
-    sha256 "d57119ea652b2502d1e19993cbd815416b7afa804230287101712f491dc90e09"
+    sha256 "7ec7ae43d183a28c5fe427793dcd5a95de83f242609ccd9b95aa88b3f22b4172"
   end
 
   def install
